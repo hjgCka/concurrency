@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
  */
 public class UnSafeTask implements Runnable {
 
-    //这个变量被每一个线程所共享
     private Date startDate;
 
     @Override
@@ -24,7 +23,6 @@ public class UnSafeTask implements Runnable {
             e.printStackTrace();
         }
 
-        //这里打印的值，可能会是一样的。因为被其它线程初始化了
         System.out.printf("Thread finished: %s : %s\n", Thread.currentThread().getId(), startDate);
     }
 }
