@@ -1,4 +1,4 @@
-package com.hjg.thread;
+package com.hjg.thread.threadlocal;
 
 import java.util.concurrent.TimeUnit;
 

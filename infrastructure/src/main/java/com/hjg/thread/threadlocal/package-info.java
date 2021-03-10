@@ -6,4 +6,4 @@
  * @author: hjg
  * @createdOn: 2021/3/8
  */
-package com.hjg.thread;
+package com.hjg.thread.threadlocal;
